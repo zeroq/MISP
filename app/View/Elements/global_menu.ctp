@@ -22,6 +22,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a href="<?php echo $baseurl;?>/events/index"><?php echo __('List Events');?></a></li>
+                            <li><a href="<?php echo $baseurl;?>/events/search">Search Events</a></li>
                             <?php if ($isAclAdd): ?>
                             <li><a href="<?php echo $baseurl;?>/events/add"><?php echo __('Add Event');?></a></li>
                             <?php endif; ?>
